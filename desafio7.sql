@@ -1,2 +1,4 @@
-SELECT * FROM northwind.purchase_orders
-WHERE notes IS NOT NULL;
+SELECT id 
+FROM northwind.products
+ORDER BY id DESC
+LIMIT 5;
